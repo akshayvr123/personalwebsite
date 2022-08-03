@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <section >
+        <div class="container">
+          <h1  class="titulo skill-text p-5 about"  >Me,Myself</h1>
+          <div class="row">
+            <div class="col-md-6 pt-5">
+              <h5 style="color:#ffff;" class="pl-5">Hi I am akshay Freelance web developer currently studying bvoc software development under kerala university in india. Also building my own startup around web development and digital marketing <br></h5>
+              <h5 style="color:#ffff;" class="pl-5 ">I am also a passive trader for the past two years.currently an option seller.I am aiming to make my startup a monolopoly in Web 3.0 in future</h5>
+              <h5 style="color:#ffff;" class="pl-5 pt-2">I am also trying to connect people with similar interest like web designing ,digital marketing ,web 3.0 etc. If you have similar interest feel free to message me on linkdin have a great talk there</h5>
+            </div>
+     
+            <div class="col-md-6  ">
+              <div class="">
+             
+              <h2 class="quotes ">Frontend developer</h2>
+              <h2 class="quotes">React js</h2>
+              <h2 class="quotes ">Digital marketing</h2>
+              <h2 class="quotes  ">Content writing</h2>
+            </div> 
+              <script>
+                (function() {
+  
+  var quotes = $(".quotes");
+  var quoteIndex = -1;
+  
+  function showNextQuote() {
+    ++quoteIndex;
+    quotes.eq(quoteIndex % quotes.length)
+      .fadeIn(2000)
+      .delay(2000)
+      .fadeOut(2000, showNextQuote);
+  }
+  
+  showNextQuote();
+  
+  })();
+  
+              </script>
+            
+          </div>
+        </div>
+      </section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+    
+</body>
+</html>
